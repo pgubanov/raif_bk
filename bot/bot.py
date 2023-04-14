@@ -20,7 +20,7 @@ async def hello(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
     await update.message.reply_text(
-        f"Привет, {update.effective_user.first_name}! На связи ИИ. (Yes, I mean the ARTIFICIAL INTELLEGENCE). \n\n"
+        f"Здарова заебал, {update.effective_user.first_name}! На связи ИИ. (Yes, I mean the ARTIFICIAL INTELLEGENCE). \n\n"
         f"Я взял все картины проданные на аукционе sothebys.com и "
         "обучил свою нейросеть, чтобы предсказать их стоимость.\n\n"
         "Отправь мне фотографию своего рисунка и я скажу, how much bucks он может стоить.",
